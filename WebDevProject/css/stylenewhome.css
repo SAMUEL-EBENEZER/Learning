@@ -53,11 +53,12 @@ padding-bottom:20px;
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 700;
 	color:#0e084c !important
+
 }
 .banner-bg {
 	background: url(../img/banner-bg.jpg) no-repeat center top;
 	background-size: cover;
-	padding:100px 0;
+	/* padding:100px 0; */
 }
 .geo {
 	font-family: Georgia, "Times New Roman", Times, serif;
@@ -74,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
 	background-repeat: no-repeat;
 }
 .contact-bg {
-	background-image: url(../img/dgwork-contact.png);
+	background-image: url(../img/Contact\ us.png);
 	margin: 5%;
 	background-position: top center;
 	background-repeat: no-repeat;
@@ -83,7 +84,7 @@ h1, h2, h3, h4, h5, h6 {
 	height: 800px;
 }
 .footer-logo img {
-	width: 150px;
+	width: 200px;
 	height: auto;
 }
 .dd{
@@ -106,4 +107,9 @@ label {
   .mobile-bg {
     background-color:#0e084c;
   }
+}
+#contactform{
+	padding: 5%;
+    background-color: #b46262;
+    border-radius: 83px;
 }
